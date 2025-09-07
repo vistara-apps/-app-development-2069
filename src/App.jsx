@@ -5,6 +5,7 @@ import Dashboard from './pages/Dashboard';
 import Businesses from './pages/Businesses';
 import Events from './pages/Events';
 import Profile from './pages/Profile';
+import BusinessOnboarding from './pages/BusinessOnboarding';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route path="/businesses" element={<Businesses />} />
             <Route path="/events" element={<Events />} />
             <Route path="/profile" element={<Profile />} />
+            <Route path="/business-onboarding" element={<BusinessOnboarding />} />
           </Routes>
         </AppShell>
       </div>
